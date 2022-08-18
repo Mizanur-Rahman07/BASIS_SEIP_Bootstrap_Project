@@ -1,0 +1,425 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1116px;
+}
+
+.background-res {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    opacity: 100%;
+    text-align: center;
+    /* padding: 100px 0; */
+}
+
+.header_home {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner_container {
+    height: 100vh;
+}
+
+.banner_container h1 {
+    font-size: 3.5rem;
+    padding: 10px 20px;
+}
+
+.menu ul li {
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    /* max-width: 100%; */
+}
+
+.ps-10 {
+    padding-left: 5rem;
+}
+
+.pe-10 {
+    padding-right: 5rem;
+}
+
+.menu ul li::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: red;
+    display: block;
+    transition: .5s;
+}
+
+.menu ul li:hover::after {
+    width: 70%;
+}
+
+.headTextBox {
+    width: 90%;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+
+.head_pre {
+    margin: 20px 65px;
+    font-size: 14px;
+    color: white;
+}
+
+.head_title {
+    font-size: 62px;
+    margin: 30px auto;
+
+}
+
+.btn_padding {
+    padding: 12px 34px;
+    font-size: 13px;
+}
+
+.head_btn a {
+    border-color: white;
+    border-radius: 0px;
+}
+
+.head_btn a:hover {
+    background: cornflowerblue;
+    transition: 1s;
+}
+
+/* -------------------- */
+
+.course_title h1 {
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.course_title p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.course_fetch {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.course_fetch h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.course_fetch p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.course_fetch:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------ */
+
+.campus_fetch img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.campus_title {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.campus_fetch {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus_title h3 {
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.campus_title:hover {
+    background: rgba(211, 0, 0, 0.2);
+}
+
+.campus_title:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* -------------------- */
+.fac_fatch img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    padding: 0px 7px;
+}
+
+.fac_contant h3 {
+    font-size: 20px;
+}
+
+.fac_contant p {
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+/* ------------------------ */
+.student {
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 25px;
+    /* flex-basis: 95%; */
+}
+
+.stu_says_img img {
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.stu_says_contant h3 {
+    font-size: 20px;
+}
+
+.stu_says_contant p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#Contact {
+    height: 468px;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px 100px;
+}
+
+.icons {
+    color: slateblue;
+}
+
+.by-m {
+    color: slateblue;
+
+}
+
+/* =================Home End================= */
+
+/*===============About Start================ */
+
+.header_about {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/about_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner_container_about {
+    height: 350px;
+}
+
+.banner_container_about h1 {
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+.about_text h1 {
+    font-size: 36px;
+}
+
+.about_text p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.about_btn_padding {
+    padding: 12px 34px;
+    font-size: 13px;
+}
+
+.about_btn a {
+    border-color: rgb(233, 94, 94);
+    border-radius: 0px;
+}
+
+.about_btn a:hover {
+    background: cornflowerblue;
+    transition: 1s;
+
+}
+
+.about_img img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------- */
+
+.left_content img {
+    width: 100%;
+    height: auto;
+}
+
+.left_content h2 {
+    font-size: 1.5rem;
+    margin: 35px 0;
+}
+
+.left_content p {
+    color: rgb(158, 156, 156);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.left_comnt_box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.left_comnt_box h3 {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1.3rem;
+
+}
+
+.comment_form input,
+.comment_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    background: hsl(0, 0%, 94%);
+}
+
+.right_content h3 {
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    /* margin: 10px 0; */
+
+}
+
+.blog_site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact_btn_padding {
+    padding: 12px 34px;
+    font-size: 13px;
+    border-color: red;
+}
+
+.floatRight {
+    float: right;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.address .icon {
+    font-size: 28px;
+    color: rgb(228, 18, 18);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.address h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(75, 73, 73);
+    margin-bottom: 5px;
+}
+
+.address p {
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 480px) {
+    .banner_container h1 {
+        font-size: 20px;
+    }
+
+    .student {
+        margin-bottom: 30px;
+    }
+}
