@@ -422,4 +422,7 @@ body {
     .student {
         margin-bottom: 30px;
     }
+    .logo img {
+        margin-left: -60px;
+    }
 }
