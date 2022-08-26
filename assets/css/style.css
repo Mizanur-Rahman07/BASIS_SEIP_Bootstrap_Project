@@ -6,6 +6,9 @@ body {
     max-width: 1116px;
 }
 
+.active{
+    color: red !important;
+}
 .background-res {
     background-position: center center;
     background-size: cover;
@@ -237,6 +240,11 @@ body {
 .stu_says_contant p {
     font-size: 14px;
     line-height: 22px;
+    height: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 #Contact {
